@@ -1,0 +1,40 @@
+{
+  "name": "m4-t14-crud-adm-eduardo-portela",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev --ignore-watch node_modules --rs  --cls src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kenzie-Academy-Brasil-Developers/m4-t14-crud-adm-eduardo-portela.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kenzie-Academy-Brasil-Developers/m4-t14-crud-adm-eduardo-portela/issues"
+  },
+  "homepage": "https://github.com/Kenzie-Academy-Brasil-Developers/m4-t14-crud-adm-eduardo-portela#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "jsonwebtoken": "^9.0.0",
+    "pg": "^8.9.0",
+    "pg-format": "^1.0.4",
+    "zod": "^3.20.6"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/express": "^4.17.17",
+    "@types/jsonwebtoken": "^9.0.1",
+    "@types/pg": "^8.6.6",
+    "@types/pg-format": "^1.0.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.9.5"
+  }
+}
